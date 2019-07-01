@@ -207,6 +207,7 @@ font-size: 25px;
   padding-left: 60px;
   font-family: 'Caveat', cursive;
   background-color: #fff;
+  position:relative;
 }
 
 #working-experience h1{
