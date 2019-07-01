@@ -1,0 +1,279 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  background-color: #E0EBE8;
+
+}
+
+.header {
+  height: 150px;
+  width: 100%;
+  margin-top: 50px;
+
+}
+
+.header img {
+  border-radius: 50%;
+  width: 150px;
+  height: 130px;
+  float: left;
+  margin-left: 50px;
+}
+
+.nav {
+  margin-right: 50px;
+  padding-top: 30px;
+}
+
+.nav ul li {
+  float: right;
+  padding: 20px;
+  list-style: none;
+
+}
+
+.nav ul li a {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 25px;
+  text-decoration: none;
+  color: #53B8A1;
+  position: relative;
+}
+
+.nav ul li a::after {
+  content: " ";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 250ms ease-in;
+}
+
+.nav ul li a:hover::after {
+  transform: scaleX(1);
+}
+
+.nav ul li a:hover {
+  color: #545454;
+}
+
+hr {
+  color: #3E9C87;
+  border: 3px dashed;
+  border-top: none;
+  width: 30%;
+  margin: 0 auto;
+  border-width: 2px;
+}
+
+.intro{
+  width: 60%;
+  margin:20px auto;
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  font-size: 28px;
+  color: #52616b;
+
+}
+
+.About-me{
+  margin-left: 60px;
+  margin-top: -20px;
+  padding-bottom: 50px;
+
+
+}
+
+h1{
+  text-decoration: underline;
+  color: #1e836c;
+  font-family: 'Shadows Into Light', cursive;
+  margin-top: 20px;
+
+}
+
+.About-me .about-me-content{
+  margin-left:60px;
+  margin-top: 20px;
+  font-family: 'Caveat', cursive;
+
+}
+
+.About-me .name{
+  margin-left: 80px;
+}
+
+.About-me .cname{
+  margin-left: 40px;
+}
+
+.About-me .bd{
+  margin-left: 65px;
+}
+
+.About-me .add{
+  margin-left:80px;
+}
+
+.About-me .add2{
+  margin-left: 160px;
+}
+
+#languages{
+  height: 500px;
+  width: 100%;
+  padding-top: 30px;
+  padding-left: 60px;
+  background-color: #fff;
+}
+
+
+
+#languages table{
+  margin: 50px auto;
+  width: 90%;
+  text-align: center;
+  font-size: 25px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-family: 'Caveat', cursive;
+
+
+}
+#languages th{
+  background-color: #dadddf;
+  padding: 10px;
+}
+
+
+#languages td{
+  border: 1px solid black;
+  padding: 10px;
+
+
+}
+
+#education{
+    height: 420px;
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 60px;
+  font-family: 'Caveat', cursive;
+
+}
+
+
+#education table{
+  width: 70%;
+  margin: 20px 60px;
+  text-align: left;
+}
+
+#education th{
+border-bottom: 1px solid #3E9C87;
+font-size: 30px;
+padding: 10px;
+
+
+}
+
+#education td{
+padding: 10px;
+font-size: 25px;
+
+ }
+
+#education td a{
+    color: #53B8A1;
+  }
+
+#education td a:hover {
+    color: #545454;
+  }
+
+#working-experience{
+  height: 1000px;
+  width: 100%;
+  padding-top: 30px;
+  padding-left: 60px;
+  font-family: 'Caveat', cursive;
+  background-color: #fff;
+}
+
+#working-experience h1{
+padding-bottom: 15px;
+}
+
+#working-experience ul li{
+  font-size: 25px;
+  margin: 10px 60px;
+}
+
+#working-experience th{
+  border-bottom: 1px solid #3E9C87;
+  font-size: 30px;
+  padding: 10px;
+}
+#working-experience table{
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#working-experience table td{
+  padding: 10px;
+  font-size: 20px;
+}
+
+#contact-me{
+  padding-top: 40px;
+  height: 300px;
+  background-color: #738598;
+  text-align: center;
+
+}
+
+#contact-me h1{
+  margin: 0;
+  color: black;
+}
+
+#contact-me .icon{
+  margin: 40px;
+  border-radius: 15px;
+  padding:5px;
+}
+
+#contact-me .fa-skype:hover{
+  color:#fff;
+  background-color:#27AEF0;
+}
+
+#contact-me .fa-weixin:hover{
+  color:#fff;
+  background-color:#2EC101;
+}
+
+#contact-me .fa-whatsapp:hover{
+  color:#fff;
+  background-color:#38E676;
+}
+
+#contact-me .fa-envelope:hover{
+  color:#fff;
+  background-color:#CF493C;
+}
+
+#contact-me .fa-phone-alt:hover{
+  color:#fff;
+  background-color:Black;
+}
