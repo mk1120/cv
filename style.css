@@ -131,7 +131,7 @@ h1{
 
 #languages{
   height: 500px;
-  width: 100%;
+  min-width: 100%;
   padding-top: 30px;
   padding-left: 60px;
   background-color: #fff;
@@ -203,7 +203,7 @@ font-size: 25px;
 
 #working-experience{
   min-height: 100%;
-  width: 100%;
+  min-width: 100%;
   padding-top: 30px;
   padding-left: 60px;
   font-family: 'Caveat', cursive;
@@ -241,6 +241,7 @@ padding-bottom: 15px;
   background-color: #738598;
   text-align: center;
   clear: both;
+  min-width: 100%;
 
 }
 
