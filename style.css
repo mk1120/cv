@@ -6,14 +6,15 @@
 
 body {
   line-height: 1.5;
-  background-color: #E0EBE8;
 
 }
 
 .header {
-  height: 150px;
+  height: 190px;
   width: 100%;
-  margin-top: 50px;
+  padding-top: 50px;
+  background-color: #E0EBE8;
+
 
 }
 
@@ -129,11 +130,12 @@ h1{
 }
 
 #languages{
+  clear:both;
   height: 500px;
-  min-width: 110%;
+  min-width: 100%;
   padding-top: 30px;
   padding-left: 60px;
-  background-color: #fff;
+  background-color: #E0EBE8;
 }
 
 
@@ -201,9 +203,8 @@ font-size: 25px;
   }
 
 #working-experience{
-  min-width: 110%;
-  padding-top: 30px;
-  padding-left: 60px;
+  min-width: 100%;
+  padding: 30px 60px;
   font-family: 'Caveat', cursive;
   background-color: #fff;
 }
@@ -239,7 +240,7 @@ padding-bottom: 15px;
   background-color: #738598;
   text-align: center;
   clear: both;
-  min-width: 110%;
+  min-width: 100%;
 
 }
 
