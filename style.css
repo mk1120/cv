@@ -1,8 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-}
+box-sizing: border-box;}
 
 body {
   line-height: 1.5;
@@ -11,7 +10,7 @@ body {
 
 .header {
   height: 190px;
-  width: 100%;
+  min-width: 105vw;
   padding-top: 50px;
   background-color: #E0EBE8;
 
@@ -27,7 +26,7 @@ body {
 }
 
 .nav {
-  margin-right: 50px;
+  margin-right: 60px;
   padding-top: 30px;
 }
 
@@ -132,7 +131,7 @@ h1{
 #languages{
   clear:both;
   height: 500px;
-  min-width: 100%;
+  min-width: 105vw;
   padding-top: 30px;
   padding-left: 60px;
   background-color: #E0EBE8;
@@ -142,7 +141,7 @@ h1{
 
 #languages table{
   margin: 50px auto;
-  width: 90%;
+  width: 80%;
   text-align: center;
   font-size: 25px;
   border: 1px solid black;
@@ -240,7 +239,7 @@ padding-bottom: 15px;
   background-color: #738598;
   text-align: center;
   clear: both;
-  min-width: 100%;
+  min-width: 105vw;
 
 }
 
